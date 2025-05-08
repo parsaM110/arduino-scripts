@@ -100,8 +100,7 @@ String SendHTML(uint8_t led1stat,uint8_t led2stat){
   ptr +="</style>\n";
   ptr +="</head>\n";
   ptr +="<body>\n";
-  ptr +="<h1>mechatronic project</h1>\n";
-  ptr +="<h3>Parsa Momeni/Ali Cheraghi</h3>\n";
+
   
    if(led1stat)
   {ptr +="<p>Forward Status: ON</p><a class=\"button button-off\" href=\"/led1off\">OFF</a>\n";}
